@@ -2,22 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
   
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="information">
 
-  <!-- Sign-up form start -->
+      <div class="title">
+        <h1> Stay updated!</h1>
+      </div>  
+      
+      <div class="sub_title">
+        <h2> 60,000+ product managers receiving monthly<br> updates on: </h2>
+      </div>
 
+      <div class="itens">
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+          <p>Product discovery and building what matters</p>
+        </div>
+
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+          <p>And much more!</p>
+        </div>        
+    </div>
+
+      <div class="validation">
+        <label for="email">Email address</label>
+        <input type="email" name="email" class="input-email" required placeholder="email@company.com">     
+        
+        <button class="btn" value="Subscribe to monthly newsletter"></button>
+       
+      </div>
+
+    </div>
+
+    <div class="img">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="image">
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
+
+<!--
   Stay updated!
 
   Join 60,000+ product managers receiving monthly updates on:
@@ -26,14 +74,14 @@
   Measuring to ensure updates are a success
   And much more!
 
-  Email address
+  
   email@company.com
 
   Subscribe to monthly newsletter
 
-  <!-- Sign-up form end -->
+  Sign-up form end -->
 
-  <!-- Success message start -->
+  <!-- Success message start 
 
   Thanks for subscribing!
 
@@ -42,11 +90,4 @@
 
   Dismiss message
 
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
-</html>
+Success message end -->
