@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Poppins:wght@100;400&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&family=Space+Grotesk:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +7,7 @@
 body {
     margin: 0 auto;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .container {
@@ -30,26 +33,35 @@ body {
 
 .information h1 {
     font-size: 4.8rem;
+    margin-top: -0.5rem;
+    color: hsl(235, 18%, 26%);
 }
 
-.information h2 {
-    font-size: 1.5rem;
+.sub_title {
+    font-size: 1.0rem;
+    color: hsl(234, 29%, 20%);
 }
 
 .information p {
     font-size: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1.0rem;
+    align-items: center;
+    vertical-align: middle;
+    color: hsl(234, 29%, 20%);
 }
 
 .itens {
     display: flex;
     flex-direction: column;
+    vertical-align: middle;
 }
 
 .icons {
     display: flex;
     align-items: baseline;
-    align-items: center;
+    vertical-align: middle;
+    gap: 1.5rem;
+    line-height: 30px;
 }
 
 .validation {
@@ -60,16 +72,59 @@ body {
 
 }
 
+label {
+    color:hsl(235, 18%, 26%);
+    margin-top: -1rem;
+}
+
 .input-email {
+    width: 100%;
+    height: 3rem;
+    margin-top: -0.5rem;
+    border: solid 1px;
+    border-radius: 7px;
+    border-color:  hsl(231, 7%, 60%);
+    padding-left: 1.5rem;   
+}
+
+.btn {
+    background-color: hsl(235, 18%, 26%);
     width: 100%;
     height: 3rem;
     border: solid 1px;
     border-radius: 7px;
-    border-color: rgb(211, 208, 208);
-
+    border-color: hsl(231, 7%, 60%);
+    color: hsl(0, 0%, 100%);
 }
 
-.btn {
-    width: 100%;
-    height: 3rem;
+@media (min-width: 1440px) {
+        .container {
+            margin-top: 3rem;
+        }
+    }
+
+@media (max-width: 980px) {
+    .container {
+        margin: 2rem;
+        margin-top: 2rem;
+        max-width: 100%;
+        max-height: 100%;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .information h1 {
+        font-size: 3rem;
+        margin-top: -0.5rem;
+        color: hsl(235, 18%, 26%);
+    }
+
+    .information p {
+        font-size: 0.8rem;
+        margin-top: 1.0rem;
+        align-items: center;
+       
+    }
 }
