@@ -94,13 +94,42 @@ label {
     color: hsl(0, 0%, 100%);
 }
 
+/*
+
 .modal {
-    display: inline-block
-    position: absolute;
-    background-color: coral;
-    width: 50%;
-    height: 40%;
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container_modal {
+    position: absolute;
+    display: flex;
+    background-color: coral;
+    width: 180rem;
+    height: 100rem;
+}
+
+.success_active {
+    width: 50rem;
+    height: 60rem;
+    background-color: aqua;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    border-radius: 2rem;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+*/
 
 @media (min-width: 1440px) {
         .container {
