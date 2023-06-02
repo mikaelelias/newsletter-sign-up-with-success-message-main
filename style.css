@@ -94,42 +94,58 @@ label {
     color: hsl(0, 0%, 100%);
 }
 
-/*
-
 .modal {
-    display: none;
+    position: absolute;
+    background-color: rgb(186, 190, 190);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 23rem;
+    height: 24rem;
+    margin: 0 auto;
+    margin-top: -35rem;
+    margin-left: 70rem;
+    border-radius: 2rem;
+    display: none;
 }
 
 .container_modal {
-    position: absolute;
-    display: flex;
-    background-color: coral;
-    width: 180rem;
-    height: 100rem;
+    border-radius: 2rem;
+    align-items: center;
 }
 
 .success_active {
-    width: 50rem;
-    height: 60rem;
-    background-color: aqua;
-    margin-top: 20rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: black;
-    border-radius: 2rem;
+    margin-left: 1rem;
+    text-align: left;
+    margin: 2.5rem;
 }
 
-h1 {
-    font-size: 50px;
-    text-align: center;
+.icons_modal {
+    font-size: 20px;
 }
 
-*/
+.h1_modal {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.text_modal {
+    font-size: 13px;
+    margin-top: 0.5rem;
+}
+
+.btn_modal {
+    background-color: rgb(245, 121, 76);
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    margin-top: 0.7rem;
+    color: white;
+    cursor: pointer;
+}
+
 
 @media (min-width: 1440px) {
         .container {
