@@ -92,6 +92,7 @@ label {
     border-radius: 7px;
     border-color: hsl(231, 7%, 60%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 
 .modal {
@@ -135,7 +136,7 @@ label {
     margin-top: 0.5rem;
 }
 
-.btn_modal {
+.btn_dismiss {
     background-color: rgb(245, 121, 76);
     width: 100%;
     height: 2rem;
