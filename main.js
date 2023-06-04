@@ -1,10 +1,12 @@
-function btn_modal_validation() {
+function btn_modal_validation_open() {
     let modal_open = document.querySelector(".modal");
     modal_open.style.display = "block"
-
-    let html = document.querySelector(".container");
-    html.style.display = "none";
 }
+
+function close_html() {
+    let close_email_field = document.querySelector(".email_field");
+    close_email_field.style.display ="none";
+  }
 
 function btn_modal_validation() {
     const emailInput = document.querySelector(".input-email");
@@ -23,6 +25,13 @@ function btn_modal_validation() {
       // Exemplo de exibição de uma mensagem de erro
       alert("Por favor, insira um endereço de email válido.");
     }
+}
+
+  var capturing = "";
+
+  function capture(){
+      capturing = document.querySelector(".input-email").value;
+      document.getElementById('id_email').innerHTML = capturing;
   }
   
   function close_btn() {
