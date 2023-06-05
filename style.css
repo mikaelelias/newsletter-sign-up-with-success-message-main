@@ -102,10 +102,10 @@ label {
     align-items: center;
     justify-content: center;
     width: 23rem;
-    height: 24rem;
-    margin: 0 auto;
-    margin-top: -35rem;
-    margin-left: 70rem;
+    height: 27rem;
+    top: 50%; /* centraliza verticalmente */
+    left: 50%; /* centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* ajusta o centro do modal */
     border-radius: 2rem;
     display: none;
 }
@@ -116,25 +116,20 @@ label {
 }
 
 .success_active {
-    margin-left: 1rem;
+    margin-left: .0.5rem;
     text-align: left;
     margin: 2.5rem;
-        background-color: rgb(186, 190, 190);
+    background-color: rgb(186, 190, 190);
 }
 
-.icons_modal {
-    font-size: 20px;
-}
 
 .h1_modal {
     font-size: 30px;
     margin: 0;
-    margin-top: 0.5rem;
 }
 
 .text_modal {
     font-size: 13px;
-    margin-top: 0.5rem;
 }
 
 .btn_dismiss {

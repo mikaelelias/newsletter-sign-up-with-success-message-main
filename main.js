@@ -1,9 +1,12 @@
-function btn_modal_validation_open() {
+function btn_modal_validation() {
     let modal_open = document.querySelector(".modal");
     modal_open.style.display = "block"
 }
 
-
+function close_btn() {
+  let close_modal = document.querySelector(".modal");
+  close_modal.style.display = "none";
+}
 function btn_modal_validation() {
     const emailInput = document.querySelector(".input-email");
     const email = emailInput.value;
@@ -15,6 +18,10 @@ function btn_modal_validation() {
       // Email válido - abrir a tela modal
       let modal = document.querySelector(".modal");
       modal.style.display = "block";
+
+      let close_html = document.querySelector(".email_field")
+      close_html.style.display = "none"
+
     } else {
       // Email inválido - adicionar lógica de tratamento de erro aqui
       emailInput.classList.add("error");
@@ -23,22 +30,11 @@ function btn_modal_validation() {
     } 
 }
 
-function close_btn() {
-  let close_modal = document.querySelector("btn_dismiss");
-  close_modal.style.display = "none";
-}
+const input = document.querySelector(".input-email");
+const span = document.querySelector(".id_span_email");
 
-
-/*
-var capturing = "";
-  function capture(){
-      capturing = document.querySelector(".input-email").value;
-      document.getElementById('id_email').innerHTML = capturing = capture
-  }
-  
-  function close_html() {
-    let close_email_field = document.querySelector(".email_field");
-    close_email_field.style.display ="none";
-  }
-  */
-
+// adicionando um ouvinte no inpit//
+input.addEventListener("input", function(){
+  const valor = input.value;
+  span.textContent = valor
+})
