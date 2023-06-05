@@ -97,11 +97,11 @@ label {
 
 .modal {
     position: absolute;
-    background-color: rgb(186, 190, 190);
+    background-color: rgb(234, 238, 238);
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 23rem;
+    width: 25rem;
     height: 27rem;
     top: 50%; /* centraliza verticalmente */
     left: 50%; /* centraliza horizontalmente */
@@ -119,7 +119,7 @@ label {
     margin-left: .0.5rem;
     text-align: left;
     margin: 2.5rem;
-    background-color: rgb(186, 190, 190);
+    background-color: rgb(234, 238, 238);
 }
 
 
@@ -130,10 +130,15 @@ label {
 
 .text_modal {
     font-size: 13px;
+    color: rgb(60, 61, 61);
+}
+
+.text_modal span {
+    font-weight: bold
 }
 
 .btn_dismiss {
-    background-color: rgb(245, 121, 76);
+    background-color: hsl(4, 100%, 67%);
     width: 100%;
     height: 2rem;
     border: none;
@@ -142,7 +147,6 @@ label {
     color: white;
     cursor: pointer;
 }
-
 
 @media (min-width: 1440px) {
         .container {

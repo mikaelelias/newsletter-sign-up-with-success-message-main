@@ -30,11 +30,15 @@ function btn_modal_validation() {
     } 
 }
 
-const input = document.querySelector(".input-email");
-const span = document.querySelector(".id_span_email");
+const input = document.querySelector(".input-email"); // seleciona o input 
+const span = document.querySelector(".span_email");  // seleciona a tag do span
 
 // adicionando um ouvinte no inpit//
 input.addEventListener("input", function(){
   const valor = input.value;
   span.textContent = valor
 })
+
+function changerBackgroudColor() {
+  var element = document.querySelector(".")
+}
