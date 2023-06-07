@@ -184,8 +184,8 @@ label {
     }
 }
 
-/*
-@media (min-width: 375px) {
+
+@media (max-width: 375px) {
     body {
         background-image: url(assets/images/illustration-sign-up-mobile.svg);
         background-repeat: no-repeat;
@@ -206,7 +206,7 @@ label {
     }
 
     .information {
-        margin-top: 17.5rem;
+        margin-top: 13.5rem;
     }
 
     .modal {
@@ -215,4 +215,4 @@ label {
         border-radius: none;
         align-items: center;
     }
-}*/
+}
