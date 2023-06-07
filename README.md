@@ -1,4 +1,5 @@
-Projeto Newsletter sign up with success message main
+Newsletter sign up with success message main
+
 Tecnologias usadas: HTML, CSS e JavaScript
 
 O projeto trata-se de cadastro de Newsletter com validação e abertura de telas modais condicionadas com o JavaScript. Na tela é possível observar a captura do e-mail e sua validação seguindo para o modal instrutivo de confirmação de cadastro.
