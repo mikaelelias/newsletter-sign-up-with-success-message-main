@@ -6,7 +6,11 @@ function btn_modal_validation() {
 function close_btn() {
   let close_modal = document.querySelector(".modal");
   close_modal.style.display = "none";
+
+  let close_html = document.querySelector(".email_field")
+  close_html.style.display = "block"
 }
+
 function btn_modal_validation() {
     const emailInput = document.querySelector(".input-email");
     const email = emailInput.value;

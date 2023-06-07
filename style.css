@@ -81,7 +81,8 @@ label {
     border: solid 1px;
     border-radius: 7px;
     border-color:  hsl(231, 7%, 60%);
-    padding-left: 1.5rem;   
+    padding-left: 1.5rem;  
+    cursor: pointer;
 }
 
 .btn {
@@ -93,6 +94,10 @@ label {
     border-color: hsl(231, 7%, 60%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(4, 100%, 67%);
 }
 
 .modal {
