@@ -12,7 +12,6 @@ body {
 
 .container { 
     position: relative;
-    margin-top: 4rem;
     max-width: 100%;
     max-height: 100%;
     padding: 3rem;
@@ -20,6 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 4rem;
+    top: 5rem;
 }
 
 .img {
@@ -184,22 +184,7 @@ label {
     }
 }
 
-@media (min-width: 858px) {
-    .container {
-        margin-top: 8rem;
-    }
-
-    img {
-        width: 20rem;  
-        height: auto;  
-    }    
-
-    .information {
-        width: 20rem;
-        height: auto;
-    }
-}
-
+/*
 @media (min-width: 375px) {
     body {
         background-image: url(assets/images/illustration-sign-up-mobile.svg);
@@ -230,4 +215,4 @@ label {
         border-radius: none;
         align-items: center;
     }
-}
+}*/
